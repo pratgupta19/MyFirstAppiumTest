@@ -18,7 +18,7 @@ public class AppTest {
 		
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 			//capabilities.setCapability(CapabilityType.BROWSER_NAME, ""); 
-			capabilities.setCapability("deviceName", "Test_Device");
+			capabilities.setCapability("deviceName", "Nexus");
 			capabilities.setCapability("platformVersion", "6.0");
 			capabilities.setCapability("platformName", "Android");
 			capabilities.setCapability("app", app.getAbsolutePath());
